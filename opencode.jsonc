@@ -3,5 +3,16 @@
   "plugin": [
     "opencode-clean-code-plugin",
     "funnel-architect-plugin-opencode"
-  ]
+  ],
+  "agent": {
+    "ask": {
+      "description": "Research and clarification agent. Asks questions, explores context, presents options. Never writes code — engine-level enforced.",
+      "prompt": "{file:./agents/ask.md}",
+      "tools": {
+        "write": false,
+        "edit": false,
+        "bash": false
+      }
+    }
+  }
 }
