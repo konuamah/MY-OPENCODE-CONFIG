@@ -8,7 +8,7 @@ My personal OpenCode configuration with **The Cleaner's Toolbox** + **Funnel Arc
 - `skills/` — Clean Code skills + 30 funnel architect skills (opt-in, webinar, SaaS, VSL, etc.)
 - `plugins/clean-code/` — Built clean-code plugin (review-code, explain-rule tools)
 - `plugins/funnel-architect-plugin-opencode/` — Built funnel-architect plugin (funnel-status tool, auto mobile check, Lighthouse audit, funnel validation)
-- `agents/` — Agent overrides (ask, build, plan, general) covering research, building, planning, and general tasks
+- `agents/` — Agent overrides (ask, ssh-recon, build, plan, general) covering local recon, remote recon, building, planning, and general tasks
 
 ## Plugins
 

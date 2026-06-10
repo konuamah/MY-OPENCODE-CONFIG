@@ -6,8 +6,17 @@
   ],
   "agent": {
     "ask": {
-      "description": "Recon scout. Explores codebase with read-only bash, gathers intelligence, reports findings, and recommends approaches. Never writes code — engine-level enforced.",
+      "description": "Local recon scout. Explore local filesystem only. Read, Grep, Glob, WebFetch. Never writes code or runs bash — engine-level enforced.",
       "prompt": "{file:./agents/ask.md}",
+      "tools": {
+        "write": false,
+        "edit": false,
+        "bash": false
+      }
+    },
+    "ssh-recon": {
+      "description": "Remote recon scout. SSH into servers. Read-only inspection commands only. No writes, no mutations — prompt-level constrained.",
+      "prompt": "{file:./agents/ssh-recon.md}",
       "tools": {
         "write": false,
         "edit": false,
