@@ -11,7 +11,7 @@
       "tools": {
         "write": false,
         "edit": false,
-        "bash": "ask"
+        "bash": true
       }
     }
   }
