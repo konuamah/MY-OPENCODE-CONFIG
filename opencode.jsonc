@@ -6,12 +6,12 @@
   ],
   "agent": {
     "ask": {
-      "description": "Research and clarification agent. Asks questions, explores context, presents options. Never writes code — engine-level enforced.",
+      "description": "Recon scout. Explores codebase with read-only bash, gathers intelligence, reports findings, and recommends approaches. Never writes code — engine-level enforced.",
       "prompt": "{file:./agents/ask.md}",
       "tools": {
         "write": false,
         "edit": false,
-        "bash": false
+        "bash": "ask"
       }
     }
   }
