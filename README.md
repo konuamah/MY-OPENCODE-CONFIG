@@ -23,3 +23,11 @@ My personal OpenCode configuration with **The Cleaner's Toolbox** + **Funnel Arc
 - Runs async Lighthouse audits for page speed
 - Validates funnel structure on session end
 - Deploy targets: Netlify, Vercel, Cloudflare Pages
+
+### Design Toolbox Plugin
+17 design skills across 3 domains:
+- Product Design (Layers): 9 skills (intro → surface)
+- Design Taste: 7 skills (core, variants, soft, minimalist, brutalist, redesign, output)
+- Quality Detection: 1 skill (impeccable — 23 commands, 41 detector rules)
+- Auto taste injection before UI file writes
+- Auto anti-pattern detection after UI file writes
