@@ -3,7 +3,8 @@
   "plugin": [
     "opencode-clean-code-plugin",
     "funnel-architect-plugin-opencode",
-    "design-toolbox-opencode"
+    "design-toolbox-opencode",
+    "agentic-seo-plugin"
   ],
   "agent": {
     "ask": {

@@ -31,3 +31,11 @@ My personal OpenCode configuration with **The Cleaner's Toolbox** + **Funnel Arc
 - Quality Detection: 1 skill (impeccable — 23 commands, 41 detector rules)
 - Auto taste injection before UI file writes
 - Auto anti-pattern detection after UI file writes
+
+### Agentic SEO Plugin
+17 SEO skills (1 main + 16 sub-skills) + 91 Python evidence-collection scripts:
+- Full audits, technical SEO, content/E-E-A-T, schema markup, sitemaps, images, links
+- GEO (Generative Engine Optimization), AEO (Answer Engine Optimization)
+- Core Web Vitals, performance, hreflang, programmatic SEO, competitor analysis
+- GitHub SEO: repo audit, README lint, community health, search benchmarking
+- Auto SEO checks after every HTML file write (viewport, meta desc, title, h1, alt, canonical, OG, schema)
